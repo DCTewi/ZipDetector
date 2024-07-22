@@ -63,7 +63,7 @@ public partial class MainView : UserControl
 
         if (file is not null)
         {
-            textOutputPath.Text = file.Path.AbsolutePath;
+            textOutputPath.Text = file.Path.LocalPath;
         }
     }
 
